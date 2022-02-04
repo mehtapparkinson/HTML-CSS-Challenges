@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  box-sizing: border-box
 }
 
 header {
@@ -29,9 +30,11 @@ section {
   background-color: #f8f0fb;
 }
 
-img {
-  border: 5px solid #8075ff;
+p  {
+    line-height: 33px;
+    letter-spacing: 2px;
 }
+
 
 h1,
 h2,
@@ -49,11 +52,35 @@ h1 {
 
 h2 {
   font-size: 175%;
+  
+}
+
+.tigers h2 {
+  color: beige;
 }
 
 h3 {
   font-size: 150%;
+
 }
+
+
+
+#bear1 {
+  border: 5px solid rgb(143, 167, 97);
+}
+
+#bear2 {
+  border: 5px solid rgb(111, 119, 226);
+}
+
+#bear3 {
+  border: 5px solid rgb(247, 189, 81);
+}
+
+.news h2 {
+  text-align: center;
+ }
 
 button {
   display: inline-block;
@@ -64,8 +91,25 @@ button {
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+  font-size: 30px;
 }
 
+button:hover{
+    background-color: rgb(175, 0, 88);
+
+}
+button:focus {
+  color: yellow;
+}
+
+.education-container{
+  border-radius: 30px;
+}
+
+.membership p {
+  max-width: 700px;
+  margin: auto;
+}
 footer {
   background-color: #211a1d;
   color: #ffffff;
@@ -76,6 +120,7 @@ footer {
 }
 
 .introduction {
+  background-color: white ;
 }
 
 #badge {
@@ -85,7 +130,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
@@ -96,6 +141,7 @@ footer {
 
 #badge:hover {
   background-color: yellow;
+  transition: 1s;
 }
 
 #badge p {
@@ -105,11 +151,12 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+  
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
+  vertical-align: top;
+  
 }
 
 .tigers {
@@ -118,12 +165,23 @@ footer {
 }
 
 .giraffe {
-  background-color: #465775;
+  background-color: #483C46;
   color: #56e39f;
 }
 
 .giraffe h2 {
-  color: #ef6f6c;
+  color: #F4743B;
+}
+.giraffe h3 {
+  color: #F4743B;
+}
+
+.giraffe p  {
+  color: #BEEE62;
+}
+
+.giraffe:first-child  p{
+  font-size: 30px;
 }
 
 .card {
@@ -191,5 +249,10 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  vertical-align: top;
 }
+
+.myfavouriteanimal {
+  background-color: rgb(205, 224, 161);
+}
+
