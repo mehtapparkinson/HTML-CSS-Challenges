@@ -30,11 +30,18 @@ section {
   background-color: #f8f0fb;
 }
 
+img  {
+  border: 5px solid #8075ff;
+}
+
 p  {
     line-height: 33px;
     letter-spacing: 2px;
 }
 
+#logo {
+  border: 0px;
+}
 
 h1,
 h2,
